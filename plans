@@ -1,0 +1,11 @@
+# Gamemode
+A gamemode consists of a set of rules that define how it behaves
+
+Generic rules:
+  * Board size
+  * Point system
+  * Dice faces, ex letters (standard), numbers (foggle)
+  * Dice face distributions.
+    * A Dice in boggle has 6 sides. 
+    * Let the gamemode define the faces for each dice.
+  
