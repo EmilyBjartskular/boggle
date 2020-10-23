@@ -9,3 +9,4 @@ Generic rules:
     * A Dice in boggle has 6 sides. 
     * Let the gamemode define the faces for each dice.
   
+	* The mode package need to be able to send and receive messages between clients

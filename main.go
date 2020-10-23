@@ -1,15 +1,23 @@
 package main
 
 import (
-	"github.com/EmilyBjartskular/boggle/sdk"
-	"github.com/emirpasic/gods/trees/btree"
+	"log"
+
+	"github.com/EmilyBjartskular/boggle/locale/wl/enus"
+	"github.com/EmilyBjartskular/boggle/mode"
+	"github.com/EmilyBjartskular/boggle/ui"
 )
 
-//go:generate go run scripts/includetxt.go
-
 func main() {
-	lst := make(chan *btree.Tree)
-	go sdk.CreateTree(CollinsScrabbleWords2019, lst)
+	if 1 == 0 {
+		log.Println(enus.CollinsScrabbleWords2019)
+	}
+	//lst := make(chan *btree.Tree)
+	//go sdk.CreateTree(CollinsScrabbleWords2019, lst)
 
-	tree := <-lst
+	//tree := <-lst
+	//log.Println(tree.Get("AAA"))
+
+	mode.Init()
+	ui.Init()
 }
