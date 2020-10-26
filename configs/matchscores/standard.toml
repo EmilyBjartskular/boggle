@@ -1,0 +1,15 @@
+[Board4x4.MatchScore]
+Keys = [
+	3, 4, 5, 6, 7, 8,
+]
+Values = [
+	1, 1, 2, 3, 5, 11,
+]
+
+[Board5x5.MatchScore]
+Keys = [
+	3, 4, 5, 6, 7, 8,
+]
+Values = [
+	1, 1, 2, 3, 5, 11,
+]
